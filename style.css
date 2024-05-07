@@ -1,0 +1,129 @@
+
+      body {
+        background-color: rgb(247, 243, 243);
+      }
+
+      .main-box {
+        margin-top: 200px;
+        margin-left: 550px;
+      }
+
+      .box1 {
+        height: 100px;
+        width: 100px;
+        background-color: #e94545;
+        animation-name: box1;
+        animation-duration: 4s;
+        position: relative;
+        border-radius: 100px;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      @keyframes box1 {
+        0% {
+          top: 0px;
+        }
+        25% {
+          top: 100px;
+        }
+        50% {
+          top: 0px;
+          transform: translate(0, 0);
+        }
+        75% {
+          transform: translate(100px, 100px);
+          opacity: 70%;
+        }
+      }
+
+      .box2 {
+        height: 100px;
+        width: 100px;
+        background-color: #39d0c7;
+        animation-name: box2;
+        animation-duration: 4s;
+        position: relative;
+        border-radius: 100px;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+
+      @keyframes box2 {
+        0% {
+          top: 0px;
+        }
+        25% {
+          top: 100px;
+        }
+        50% {
+          top: 0px;
+          transform: translate(0, 0);
+        }
+        75% {
+          transform: translate(-100px, 100px);
+          opacity: 70%;
+        }
+        100% {
+        }
+      }
+
+      .box3 {
+        height: 100px;
+        width: 100px;
+        background-color: #38a962;
+        animation-name: box3;
+        animation-duration: 4s;
+        position: relative;
+        border-radius: 100px;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+
+      @keyframes box3 {
+        0% {
+          bottom: 0px;
+        }
+        25% {
+          bottom: 100px;
+        }
+        50% {
+          bottom: 0px;
+          transform: translate(0, 0);
+        }
+        75% {
+          transform: translate(100px, -100px);
+          opacity: 70%;
+        }
+        100% {
+        }
+      }
+
+      .box4 {
+        height: 100px;
+        width: 100px;
+        background-color: #726ece;
+        animation-name: box4;
+        animation-duration: 4s;
+        position: relative;
+        border-radius: 100px;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      @keyframes box4 {
+        0% {
+          bottom: 0px;
+        }
+        25% {
+          bottom: 100px;
+        }
+        50% {
+          bottom: 0px;
+          transform: translate(0, 0);
+        }
+        75% {
+          transform: translate(-100px, -100px);
+          opacity: 70%;
+        }
+        100% {
+        }
+      }
